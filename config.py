@@ -14,7 +14,7 @@ OWNER_ID = int(environ.get("OWNER_ID", "8735651766")) # Owner Id or Admin Id
 F_SUB = environ.get("F_SUB", "")
 
 # Mongodb Database Uri For User Data Store 
-MONGO_DB_URI = environ.get("MONGO_DB_URI", "")
+MONGO_DB_URI = environ.get("MONGO_DB_URI", "mongodb+srv://katrothnarsing91_db_user:eOevojltTERvKUC0@cluster0.jqr0fyp.mongodb.net/?appName=Cluster0")
 
 # Port To Run Web Application 
 PORT = int(environ.get('PORT', 8080))
